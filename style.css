@@ -1,0 +1,38 @@
+.nav-item a {
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.nav-item {
+    padding-left: 10px;
+    transition: transform 0.9s;
+}
+
+.nav-item a:hover {
+    color: honeydew;
+    transform: scale(1.15);
+}
+
+.about-title {
+    font-weight: bolder;
+}
+
+hr {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#my-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#my-skills {
+    list-style: none;
+    text-align: center;
+}
+
+.imag-project {
+    width: 50vw;
+}
